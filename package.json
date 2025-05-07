@@ -4,8 +4,8 @@
   "description": "Discord Roleplay Bot",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "engines": {
     "node": ">=16.0.0"

@@ -3,5 +3,6 @@
   "ext": "js,json",
   "ignore": ["node_modules", "*.test.js"],
   "exec": "node ./src/index.js",
-  "verbose": true
+  "verbose": true,
+  "cwd": "."
 } 
