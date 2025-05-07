@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon --watch src src/index.js"
+    "dev": "nodemon"
   },
   "engines": {
     "node": ">=16.0.0"

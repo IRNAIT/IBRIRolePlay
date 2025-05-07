@@ -1,6 +1,7 @@
 {
   "watch": ["src"],
   "ext": "js,json",
-  "ignore": ["node_modules"],
-  "exec": "node src/index.js"
+  "ignore": ["node_modules", "*.test.js"],
+  "exec": "node ./src/index.js",
+  "verbose": true
 } 
