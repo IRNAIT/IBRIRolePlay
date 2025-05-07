@@ -2,7 +2,7 @@
   "watch": ["src"],
   "ext": "js,json",
   "ignore": ["node_modules", "*.test.js"],
-  "exec": "node ./src/index.js",
+  "exec": "node /home/runner/$REPL_SLUG/src/index.js",
   "verbose": true,
-  "cwd": "."
+  "cwd": "/home/runner/$REPL_SLUG"
 } 
