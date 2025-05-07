@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBRI RolePlay Bot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #2c2f33;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background: #23272a;
+        }
+        h1 {
+            color: #7289da;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .feature-card {
+            background: #23272a;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .feature-card h3 {
+            color: #7289da;
+            margin-top: 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #7289da;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 2rem;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #5b6eae;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>IBRI RolePlay Bot</h1>
+            <p>Ваш идеальный компаньон для ролевых игр в Discord</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="features">
+            <div class="feature-card">
+                <h3>🎮 Система боя</h3>
+                <p>Динамичные сражения с различными механиками и возможностями для персонажей.</p>
+            </div>
+            <div class="feature-card">
+                <h3>💰 Экономика</h3>
+                <p>Полноценная экономическая система с торговлей, работой и заработком.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🎒 Инвентарь</h3>
+                <p>Управление предметами, экипировкой и ресурсами вашего персонажа.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="https://discord.com/api/oauth2/authorize?client_id=&permissions=8&scope=bot" class="cta-button">
+                Добавить бота на сервер
+            </a>
+        </div>
+    </main>
+</body>
+</html> 
